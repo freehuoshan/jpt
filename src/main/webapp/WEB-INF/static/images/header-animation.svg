@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 704 101" style="enable-background:new 0 0 704 101;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<circle id="dot-1_2_" class="st0" cx="11.5" cy="9.7" r="5.4"/>
+		<circle id="dot-2_2_" class="st0" cx="165.6" cy="91.3" r="5.4"/>
+		<circle id="dot-3_2_" class="st0" cx="254.4" cy="40.9" r="5.4"/>
+		<circle id="dot-4_2_" class="st0" cx="370.2" cy="11.1" r="5.4"/>
+		<circle id="dot-5_2_" class="st0" cx="493.7" cy="56.9" r="5.4"/>
+		<circle id="dot-6_2_" class="st0" cx="550.1" cy="19.4" r="5.4"/>
+		<circle id="dot-7_2_" class="st0" cx="692.5" cy="78.4" r="5.4"/>
+	</g>
+	<g>
+		<polyline id="line-1_1_" class="st1" points="11.5,9.7 165.6,91.3 254.5,40.9 370.2,11.1 493.7,56.9 550.2,19.4 		"/>
+		<polyline id="line-2" class="st1" points="11.5,9.7 165.6,91.3 254.5,40.9 370.2,11.1 493.7,56.9 693,78.4 		"/>
+	</g>
+</g>
+</svg>
