@@ -30,41 +30,41 @@ $('.overlay-nav a').click(function(){
 });
 
 $('.become-expert').click(function(){
-    $('body').css({'height':'100%','overflow-y':'hidden'});
-    $('html').css({'height':'100%','overflow-y':'hidden'});
-    $('.body-container').css({'overflow-y':'hidden','height':'100%'});
+    // $('body').css({'height':'100%','overflow-y':'hidden'});
+    // $('html').css({'height':'100%','overflow-y':'hidden'});
+    // $('.body-container').css({'overflow-y':'hidden','height':'100%'});
     TweenMax.to('.popup-overlay-1', 0.5, {css:{top:0},ease:Back.easeOut});
     TweenMax.to('.popup-overlay-1', 0.25, {css:{backgroundColor:'rgba(0,0,0,0.5)'},ease:Power2.easeInOut,delay:0.5});
 });
 
 $('.become-client').click(function(){
-    $('body').css({'height':'100%','overflow-y':'hidden'});
-    $('html').css({'height':'100%','overflow-y':'hidden'});
-    $('.body-container').css({'overflow-y':'hidden','height':'100%'});
+    // $('body').css({'height':'100%','overflow-y':'hidden'});
+    // $('html').css({'height':'100%','overflow-y':'hidden'});
+    // $('.body-container').css({'overflow-y':'hidden','height':'100%'});
     TweenMax.to('.popup-overlay-2', 0.5, {css:{top:0},ease:Back.easeOut});
     TweenMax.to('.popup-overlay-2', 0.25, {css:{backgroundColor:'rgba(0,0,0,0.5)'},ease:Power2.easeInOut,delay:0.5});
 });
 
 $('.recommend-expert').click(function(){
-    $('body').css({'height':'100%','overflow-y':'hidden'});
-    $('html').css({'height':'100%','overflow-y':'hidden'});
-    $('.body-container').css({'overflow-y':'hidden','height':'100%'});
+    // $('body').css({'height':'100%','overflow-y':'hidden'});
+    // $('html').css({'height':'100%','overflow-y':'hidden'});
+    // $('.body-container').css({'overflow-y':'hidden','height':'100%'});
     TweenMax.to('.popup-overlay-3', 0.5, {css:{top:0},ease:Back.easeOut});
     TweenMax.to('.popup-overlay-3', 0.25, {css:{backgroundColor:'rgba(0,0,0,0.5)'},ease:Power2.easeInOut,delay:0.5});
 });
 
 $('.recommend-client').click(function(){
-    $('body').css({'height':'100%','overflow-y':'hidden'});
-    $('html').css({'height':'100%','overflow-y':'hidden'});
-    $('.body-container').css({'overflow-y':'hidden','height':'100%'});
+    // $('body').css({'height':'100%','overflow-y':'hidden'});
+    // $('html').css({'height':'100%','overflow-y':'hidden'});
+    // $('.body-container').css({'overflow-y':'hidden','height':'100%'});
     TweenMax.to('.popup-overlay-4', 0.5, {css:{top:0},ease:Back.easeOut});
     TweenMax.to('.popup-overlay-4', 0.25, {css:{backgroundColor:'rgba(0,0,0,0.5)'},ease:Power2.easeInOut,delay:0.5});
 });
 
 $('.close-form').click(function(){
-    $('body').css({'overflow-y':'initial'});
-    $('html').css({'overflow-y':'initial'});
-    $('.body-container').css({'overflow-y':'initial','height':'initial'});
+    // $('body').css({'overflow-y':'initial'});
+    // $('html').css({'overflow-y':'initial'});
+    // $('.body-container').css({'overflow-y':'initial','height':'initial'});
     var thisOverlay = $(this).parent().parent().parent();
     TweenMax.to(thisOverlay, 0.25, {css:{backgroundColor:'transparent'},ease:Power2.easeInOut});
     TweenMax.to(thisOverlay, 0.5, {css:{top:'-100%'},ease:Back.easeIn});

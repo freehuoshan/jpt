@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/include/common/uri.jsp"%>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -9,24 +12,24 @@
 	<meta name="description" content="六度智囊 智囊 咨询 战略 行业">
 	<meta name="keywords" content="六度智囊 智囊 咨询 战略 行业">
 
-	<link rel="shortcut icon" href="images/icons/favicon.ico">
-	<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="<%=res%>/images/icons/favicon.ico">
+	<link rel="apple-touch-icon" href="<%=res%>/images/icons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="<%=res%>/images/icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="<%=res%>/images/icons/apple-touch-icon-114x114.png">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/animate.css" />
-	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="<%=res%>/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="<%=res%>/css/animate.css" />
+	<script src="<%=res%>/js/modernizr.custom.js"></script>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="condition-header">
-			<a href="http://www.6vidu.com"><img class="logo" style="left:20px;" src="images/icons/logo.svg"></a>
+			<a href="http://www.6vidu.com"><img class="logo" style="left:20px;" src="<%=res%>/images/icons/logo.svg"></a>
 		</div>	
 		<section class="invitation">
-			<p>感谢您接受六度智囊（Six Degrees Intelligence）咨询邀请，点击<a href="condition.html">链接</a>查看详细条款条约。</p>
+			<p>感谢您的反馈，期待您下次参与六度智囊（Six Degrees Intelligence）咨询邀请，点击<a href="<%=basePath%>/condition">链接</a>查看详细条款条约。</p>
 		</section>
 		<div class="footer-fixed">
 		<footer>
@@ -38,23 +41,23 @@
 					<h3>法律</h3>
 				</div>	
 				<div class="footer-bottom">
-					<img id="logo-space" style="visibility:hidden" src="images/icons/logo-footer.svg">
-					<img class="logo-footer" src="images/icons/logo-footer.svg">
+					<img id="logo-space" style="visibility:hidden" src="<%=res%>/images/icons/logo-footer.svg">
+					<img class="logo-footer" src="<%=res%>/images/icons/logo-footer.svg">
 					<h5>公司邮箱</h5>
 					<a href="mailto:info@6vidu.com">info@6vidu.com</a>
 					<div class="social-media"><i class="fa fa-weixin" aria-hidden="true"></i><a href="https://www.linkedin.com/company/13285687/" target="_blank" style="padding:0;border"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
 				</div>
 			</div>
-			<img class="qr-code" src="images/photos/qrcode.jpg">
+			<img class="qr-code" src="<%=res%>/images/photos/qrcode.jpg">
 		</footer>
 		</div>
 	</div>
-	<script src="js/jquery-2.1.3.min.js"></script>
-	<script src="js/TweenMax.min.js"></script>
-	<script type="text/javascript" src="js/jquery.malihu.PageScroll2id.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/wow.js"></script>
-	<script src="js/classie.js"></script>
+	<script src="<%=res%>/js/jquery-2.1.3.min.js"></script>
+	<script src="<%=res%>/js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="<%=res%>/js/jquery.malihu.PageScroll2id.js"></script>
+	<script src="<%=res%>/js/script.js"></script>
+	<script src="<%=res%>/js/wow.js"></script>
+	<script src="<%=res%>/js/classie.js"></script>
 	<script>
 		$('.fa-weixin').click(function(){
 		    $('.qr-code').fadeIn();

@@ -106,7 +106,7 @@
 					<h1>成为专家</h1>
 					<img class="close-form" src="<%=res%>/images/icons/close.svg">
 				</div>	
-				<form method="post" action="<%=basePath%>/index/postData1" enctype="multipart/form-data">
+				<form>
 				 	<div class="infos">
 				 		<div class="infos_label">姓名:</div>	
 				 		<div class="infos_input">
@@ -179,7 +179,7 @@
 					<h1>成为客户</h1>
 					<img class="close-form" src="<%=res%>/images/icons/close.svg">
 				</div>	
-				<form method="post" action="<%=basePath%>/index/postData2">
+				<form>
 				 	<div class="infos">
 				 		<div class="infos_label">姓名:</div>	
 				 		<div class="infos_input">
@@ -241,7 +241,7 @@
 					<h1>推荐专家</h1>
 					<img class="close-form" src="<%=res%>/images/icons/close.svg">
 				</div>	
-				<form method="post" action="<%=basePath%>/index/postData3">
+				<form>
 					<div class="form-left">
 						<h1>我是</h1>
 					 	<div class="infos">
@@ -358,7 +358,7 @@
 					<h1>推荐客户</h1>
 					<img class="close-form" src="<%=res%>/images/icons/close.svg">
 				</div>	
-				<form method="post" action="<%=basePath%>/index/postData4">
+				<form>
 					<div class="form-left">
 						<h1>我是</h1>
 					 	<div class="infos">
@@ -484,7 +484,7 @@
 					<div class="column-3  wow fadeInUp" data-wow-delay="0.10s">
 						<img src="<%=res%>/images/icons/resume.png">
 						<h2>1.6亿+个人简历</h2>
-						<p>覆盖超过20个国家及地区的200余个行业其中包括小米、先锋集团、爱奇艺、Alibaba、Amazon、Tecent、Apple、Nike等国内外知名企业与机构。</p>
+						<p>覆盖超过20个国家及地区的200余个行业其中包括小米、先锋集团、爱奇艺、Alibaba、Amazon、Tencent、Apple、Nike等国内外知名企业与机构。</p>
 					</div>
 					<div class="column-3  wow fadeInUp" data-wow-delay="0.15s">
 						<img src="<%=res%>/images/icons/data.png">
@@ -643,17 +643,17 @@
 		$('.qr-code').click(function(){
 		    $(this).fadeOut();
 		});
-		var isMobile = {
-		    Android: function() {
-	        	return navigator.userAgent.match(/Android/i);
-	    	},
-		    any: function() {
-		        return ( isMobile.Android());
-		    }
-		};
-		if (isMobile.any()) {
-			$('.header-info-text').css({'margin-top':'-150px'});
-		}
+		// var isMobile = {
+		//     Android: function() {
+	 //        	return navigator.userAgent.match(/Android/i);
+	 //    	},
+		//     any: function() {
+		//         return ( isMobile.Android());
+		//     }
+		// };
+		// if (isMobile.any()) {
+		// 	$('.header-info-text').css({'margin-top':'-150px'});
+		// }
 	</script>
 	<script>
 	    function init(){
